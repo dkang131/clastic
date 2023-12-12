@@ -16,7 +16,7 @@ More details can be seen below
 3. Library: TensorFlow, NumPy, Pillow, Matplotlib, OS, zipfile, CV2, h5py
 
 ## Dataset
-The dataset can be accessed via [dataset]
+The dataset can be accessed via [dataset](https://github.com/dkang131/clastic/tree/main/DATASET)
 
 ## Steps for Training
 1. Import data into the Code Platform
@@ -44,4 +44,4 @@ model.compile(loss=tf.keras.losses.CategoricalCrossentropy(from_logits=False),
 model.save('best_model.h5')
 ```
 
-For the complete code please check our [notebook]
+For the complete code please check our [notebook](https://github.com/dkang131/clastic/blob/main/CLASTIC_CLASSIFIER_MACHINE_LEARNING_MODEL.ipynb)
