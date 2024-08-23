@@ -23,7 +23,7 @@ The dataset can be accessed via [dataset](https://github.com/dkang131/clastic/tr
 2. Resize the image to the desired size, we resize it to 224x224
 3. Define the pre-trained model as the base model, we use a pre-trained model of MobileNetV2
 ```
-#Load the pre-trained ResNet model without the top (classification) layers:
+#Load the pre-trained MobileNet model without the top (classification) layers:
 base_model = tf.keras.applications.MobileNetV2(weights='imagenet', include_top=False, input_shape=(224, 224, 3))
 
 #Freeze the base model's layers to prevent them from being trained:
